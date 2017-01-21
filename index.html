@@ -49,8 +49,8 @@
 <body>
     <div class="flexbox-wrapper">
         <button class="ping-btn" type="button">PING TEST!</button>
-        <p class="ping-response"></p>
-        <button class="reload-btn" type="button">AGAIN!</button>
+        <p class="ping-response" style="display: none;"></p>
+        <button class="reload-btn" type="button" style="display: none;">AGAIN!</button>
     </div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -62,8 +62,6 @@
 
             // View (HTML) zone
             //---------------------------------------------------------------------
-            $('.ping-response').hide();
-            $('.reload-btn').hide();
             $('.ping-btn').click(function () {
                 socket.emit('ping message', Date.now());
             });
