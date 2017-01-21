@@ -77,7 +77,7 @@
         });
         // socket.io events
         socket.on('chat message', function(msg) {
-            var latency = Date.now() - msg.timestamp;
+            var latency = Math.abs(Date.now() - msg.timestamp);
             $('#messages').append($('<li>').text(msg.content + ' [' + latency + 'ms]'));
         })
     </script>
