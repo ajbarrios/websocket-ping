@@ -1,4 +1,4 @@
-## websocket-ping Ping tester made with HTML5 websockets and websockets.io
+## websocket-ping Ping tester made with HTML5 websockets and socket.io
 
 ## Installation
 
