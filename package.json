@@ -1,0 +1,11 @@
+{
+  "name": "chat-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Antonio José Barrios León",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
+  }
+}
