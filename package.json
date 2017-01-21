@@ -1,5 +1,5 @@
 {
-  "name": "chat-sample",
+  "name": "websocket-ping",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Antonio José Barrios León",
